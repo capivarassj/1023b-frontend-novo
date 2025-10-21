@@ -44,7 +44,7 @@ function App() {
   }
   return (
     <>
-      <div>Cadastro de Produtos</div>
+      <div>Cadastro de Produtos</div> 
       <form onSubmit={handleForm}>
         <input type="text" name="nome" placeholder="Nome" />
         <input type="number" name="preco" placeholder="Preço" />
